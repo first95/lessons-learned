@@ -3,7 +3,7 @@ Consolodated Vision Advice
 
 1) RGB filtering might be faster than HSL
 
-2) Doing Comman filtering on targets will probably help reduce jitter
+2) Doing Kalman filtering on targets will probably help reduce jitter
 
 3) For rotating to face a target: a gyroscope will be nessessary. An
 ardupilot doesn't cut it.
