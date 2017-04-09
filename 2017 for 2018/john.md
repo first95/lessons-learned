@@ -5,3 +5,9 @@ If we do another practice robot:
 We could iterate on PID tuning and auto moves a lot more quickly if all the relevant parameters were stored in JSON files or something on the file system, rather than constants in the code.
 
 What is stopping us from using the PID loops on the Talons?  Does it not work in follower mode?
+
+Would be super amazing to have some form of Built-in TEst.  Like maybe:
+* Pressure sensor in the pneumatics
+* Encoders on all the things
+
+Would be really great just to have a rock solid motion control module for each drive pod.  Would be super cool to have a test stand for a motor to push against.
