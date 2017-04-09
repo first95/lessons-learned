@@ -11,3 +11,9 @@ Would be super amazing to have some form of Built-in TEst.  Like maybe:
 * Encoders on all the things
 
 Would be really great just to have a rock solid motion control module for each drive pod.  Would be super cool to have a test stand for a motor to push against.
+
+We could feasibly design the robot's software in advance of the build season, and then write modules to support features that are likely to be present in the game.  Taken to the extreme, you could write a meta-language in which you define the robot's behavior in config files.
+
+Testing.
+
+Would it be better to use the command and subsystem framework provided by the wpilib?
