@@ -16,7 +16,7 @@ We could feasibly design the robot's software in advance of the build season, an
 
 Testing.
 
-Would it be better to use the command and subsystem framework provided by the wpilib?  It seems like it'd result in more easily movable subsystems.
+Would it be better to use the command and subsystem framework provided by the wpilib?  It seems like it'd result in more easily movable subsystems.  Moreover, it would make it so we could actually run unit tests - especially if we mock out the WPILib
 
 It'd be really useful to have a tool that lists out all the active hosts on a network.
 
@@ -25,3 +25,5 @@ It'd be great to take advantage of the "vision calibration" opportunities offere
 A logging utility would be super useful.  Nick has started it.
 
 It might be nice to have a mock of the WPILib as a simpler standin for the simulator.  Just something to run the code and exercise certain paths.  It might be hard to make it useful without being a full simulator.
+
+Look up control systems release schedule
