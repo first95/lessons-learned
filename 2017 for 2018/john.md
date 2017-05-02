@@ -31,3 +31,7 @@ One thing we should test for and be vigilant for is the resetting of every state
 Would it be useful for the drive team to go and watch videos of their matches after the fact?  And ask questions like:
 - What would have scored us more points?
 - What mistakes did the other teams make?
+
+In aviation, pilots use a printed checklist to make sure they don't forget anything prior to flight.  SHould we do a preflight checklist for the pit crew?
+
+Spencer and Nick seemed to really work well with the issues list on GitHub.  I think having a clear list of tasks helps a lot.  I think the more of our tasks are things that the programmers can just go off and do on their own time, the better.
