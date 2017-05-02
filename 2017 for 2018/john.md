@@ -14,16 +14,20 @@ Would be really great just to have a rock solid motion control module for each d
 
 We could feasibly design the robot's software in advance of the build season, and then write modules to support features that are likely to be present in the game.  Taken to the extreme, you could write a meta-language in which you define the robot's behavior in config files.
 
-Testing.
+It'd be great to test the code off the robot before we test it on the robot.  How do aerospace companies handle this?  They must have some kind of aviation best practices.  In any case, we know they generally have working code prior to putting it on something that flies.
 
 Would it be better to use the command and subsystem framework provided by the wpilib?  It seems like it'd result in more easily movable subsystems.  Moreover, it would make it so we could actually run unit tests - especially if we mock out the WPILib
 
-It'd be really useful to have a tool that lists out all the active hosts on a network.
+It'd be really useful to have a tool that lists out all the active hosts on a network.  Or maybe just something that shows the full status of the local network at a glance - for example, DHCP vs autoconfiguration on the local IP address, whether MDNS has found the robot, whether the robot's up at its default address.
 
-It'd be great to take advantage of the "vision calibration" opportunities offered at each event.
+It'd be great to take advantage of the "vision calibration" opportunities offered at each event.  Furthermore, we should test from a multitude of angles, on every target on the field.  It would be really great to be able to do this with a laptop rather than the robot.
 
 A logging utility would be super useful.  Nick has started it.
 
-It might be nice to have a mock of the WPILib as a simpler standin for the simulator.  Just something to run the code and exercise certain paths.  It might be hard to make it useful without being a full simulator.
+It might be nice to have a mock of the WPILib as a simpler standin for the simulator.  Just something to run the code and exercise certain paths.  It might be hard to make it useful without being a full simulator.  "Strongback" is such a library; we should look into that.
 
-Look up control systems release schedule
+One thing we should test for and be vigilant for is the resetting of every state variable.  We had weird behavior in a practice match due to a variable that never got reset.
+
+Would it be useful for the drive team to go and watch videos of their matches after the fact?  And ask questions like:
+- What would have scored us more points?
+- What mistakes did the other teams make?
