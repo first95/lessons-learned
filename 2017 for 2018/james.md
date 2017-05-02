@@ -1,1 +1,2 @@
 - Side pods must be supported along their entire length
+- Redundancy in battery straps
